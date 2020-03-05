@@ -1,8 +1,8 @@
 #write your code here
 
 # INPUTS --> Starting number of seconds from midnight --> Integer 
-# OUTPUTS --> --> 
-# ACTIONS 
+# OUTPUTS --> "HAPPY NEW YEAR" --> String
+# ACTIONS --> puts out number of seconds left for each loop -->
 
 def countdown
 end
