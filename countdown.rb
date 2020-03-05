@@ -1,7 +1,7 @@
 #write your code here
 
-# INPUTS -->  --> Integer 
-# OUTPUTS
+# INPUTS --> Starting number of seconds from midnight --> Integer 
+# OUTPUTS --> --> 
 # ACTIONS 
 
 def countdown
