@@ -4,21 +4,18 @@
 # OUTPUTS --> "HAPPY NEW YEAR" --> String
 # ACTIONS --> puts out number of seconds left for each loop --> puts a string
 
-def countdown(seconds)
+def countdown(seconds, should_sleep = false)
   while seconds > 0 
     puts "#{seconds} SECOND(S)!"
+    if should_sleep
+      sleep(1)
+    end
     seconds -= 1
-    countdown_with_sleep(1)
   end
   return "HAPPY NEW YEAR!"
 end
 
 
 def countdown_with_sleep(seconds)
-  while seconds > 0 
-    puts "#{seconds} SECOND(S)"
-    sleep 1
-    seconds -= 1
-  end
-  return "HAPPY NEW YEAR"
+  countdown(seconds, true)
 end
